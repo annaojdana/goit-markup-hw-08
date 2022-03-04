@@ -1,0 +1,13 @@
+.active-page {
+  position: relative;
+}
+.active-page::after {
+  content: "";
+  position: absolute;
+  bottom: -32px;
+  left: 0;
+  background-color: $main-color;
+  border-radius: 2px;
+  height: 4px;
+  width: 100%;
+}

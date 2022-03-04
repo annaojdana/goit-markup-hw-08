@@ -1,0 +1,31 @@
+$fontFamilyBody: "Roboto", sans-serif;
+$fontFamilyLogo: "Raleway", sans-serif;
+
+// colors
+$main-color: #2196f3;
+$dark-text-color: #212121;
+$light-bg-color: #f5f4fa;
+$white-color: #fff;
+$border-color: #ececec;
+$grey-color: #757575;
+$social-icon-color: #afb1b8;
+$dark-bg-color: #2f303a;
+$elipse-dark-color: rgba(255, 255, 255, 0.1);
+//   --border-color: #ececec;
+$light-border-color: #eeeeee;
+$main-footer-color: rgba(255, 255, 255, 0.6);
+
+//box shodows
+
+$btn-shodow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+$team-card-shodow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+$modal-window-shodow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+$filter-btn-shodow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+  0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  $portfolio-card-shodow:0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+
+//transition
+$main-transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
