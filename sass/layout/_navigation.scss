@@ -1,53 +1,28 @@
-nav {
+.navigation {
   border-bottom: 1px solid $border-color;
   background-color: $white-color;
-}
-
-.nav {
-  height: 80px;
-  display: flex;
-  align-items: center;
-  &__list,
-  &__address-box {
-    display: flex;
-  }
-  &__list {
-    margin-left: 70px;
-    &-item {
-      margin: 0 23px;
-    }
-  }
-
-  &__icon {
-    fill: $grey-color;
-    margin-right: 10px;
-    transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  &__address-box {
-    margin-left: 348px;
-    width: 553px;
-    justify-content: flex-end;
-  }
-  &__item-mail {
-    margin-right: 30px;
-  }
-  &__link {
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    color: $dark-text-color;
-    transition: color $main-transition;
-    &:hover,
-    &:focus {
-      color: $main-color;
-    }
-  }
-  &__contact-details {
-    color: $grey-color;
+  height: 60px;
+  &__wrapper {
+    height: 100%;
     display: flex;
     align-items: center;
-    &:focus .nav__icon,
-    &:hover .nav__icon {
+    justify-content: space-between;
+  }
+  &__items {
+    display: none;
+  }
+  &__burger {
+    padding: 12px 8px;
+    border: none;
+    background-color: transparent;
+    transition: fill $main-transition;
+    &-icon {
+      fill: $dark-text-color;
+      width: 24px;
+      height: 16px;
+    }
+    &:hover &-icon,
+    &:focus &-icon {
       fill: $main-color;
     }
   }

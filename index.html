@@ -15,38 +15,74 @@
 
 <body>
   <header>
-    <nav>
-      <div class="container">
-        <div class="nav">
-          <a href="index.html" class="logo logo--dark"><span class="logo__item">Web</span>Studio</a>
-          <ul class="nav__list">
-            <li class="nav__list-item"><a class="nav__link active-page" href="index.html">Agencja</a></li>
-            <li class="nav__list-item"><a class="nav__link" href="portfolio.html">Portfolio</a></li>
-            <li class="nav__list-item"><a class="nav__link" href="contact.html">Kontakt</a></li>
+    <nav class="navigation">
+      <div class=" navigation__wrapper container">
+        <a href="index.html" class="logo logo--dark"><span class="logo__item">Web</span>Studio</a>
+        <button class="navigation__burger">
+          <svg class="navigation__burger-icon">
+            <use href="./images/svg/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
+        <div class="navigation__items">
+          <ul class="navigation__list">
+            <li class="navigation__list-item"><a class="navigation__link active-page" href="index.html">Agencja</a></li>
+            <li class="navigation__list-item"><a class="navigation__link" href="portfolio.html">Portfolio</a></li>
+            <li class="navigation__list-item"><a class="navigation__link" href="contact.html">Kontakt</a></li>
           </ul>
-          <ul class="nav__address-box">
-            <li class="nav__address-box-item"><a class="nav__link nav__contact-details nav__item-mail"
-                href="mailto:info@example.com"><svg class="nav__icon" width="16" height='12'>
+          <ul class="navigation__address-box">
+            <li class="navigation__address-box-item"><a
+                class="navigation__link navigation__contact-details navigation__item-mail"
+                href="mailto:info@example.com"><svg class="navigation__icon" width="16" height='12'>
                   <use href="./images/svg/sprite.svg#icon-envelope"></use>
                 </svg>info@devstudio.com</a></li>
-            <li class="nav__address-box-item"><a class="nav__link nav__contact-details" href="tel:+48111111111"><svg
-                  class="nav__icon" width="10" height='16'>
+            <li class="navigation__address-box-item"><a class="navigation__link navigation__contact-details"
+                href="tel:+48111111111"><svg class="navigation__icon" width="10" height='16'>
                   <use href="./images/svg/sprite.svg#icon-smartphone"></use>
                 </svg>+48 111 111 111</a></li>
           </ul>
         </div>
+
       </div>
     </nav>
+    <!-- mobile menu -->
+    <div class="menu">
+      <div class="menu__close">
+        <svg class="menu__close-icon">
+          <use href="./images/svg/sprite.svg#icon-iks"></use>
+        </svg>
+      </div>
+      <div class="menu__list">
+        <ul class="menu__nav">
+          <li class="menu__nav-item"><a class="menu__link active-page-menu" href="index.html">Agencja</a></li>
+          <li class="menu__nav-item"><a class="menu__link" href="portfolio.html">Portfolio</a></li>
+          <li class="menu__nav-item"><a class="menu__link" href="contact.html">Kontakt</a></li>
+        </ul>
+        <ul class="menu__address-box">
+          <li class="menu__address-box-item"><a class="menu__address-box-tel" href="tel:+48111111111">+48 111
+              111 111</a></li>
+          <li class="menu__address-box-item"><a class="menu__address-box-mail"
+              href="mailto:info@example.com">info@devstudio.com</a></li>
+        </ul>
+        <ul class="menu__social">
+          <li class="menu__social-item"><a href="#" class="menu__social-link social-line">Instagram</a></li>
+          <li class="menu__social-item"><a href="#" class="menu__social-link social-line">Twitter</a></li>
+          <li class="menu__social-item"><a href="#" class="menu__social-link social-line">Facebook</a></li>
+          <li class="menu__social-item"><a href="#" class="menu__social-link">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+
+
     <section class="hero">
       <div class="hero__img">
-        <div class="hero__text container">
+        <div class="hero__text">
           <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
           <button type="button" class="hero__btn btn btn--main" data-modal-open>Zamów usługę</button>
         </div>
       </div>
     </section>
   </header>
-  <main>
+  <!-- <main>
     <section class="about-us section ">
       <div class="container">
         <ul class="about-us__cards">
@@ -274,7 +310,7 @@
     </div>
   </footer>
   <!-- modal window -->
-  <div class="backdrop is-hidden" data-modal>
+  <!-- <div class="backdrop is-hidden" data-modal>
     <div class="modal" data-modal-window>
       <div class="modal__box">
         <h4 class="modal__box-heading">Zostaw swoje dane w formularzu poniżej</h4>
@@ -301,7 +337,7 @@
           <use href="./images/svg/sprite.svg#icon-iks"></use>
         </svg></button>
     </div>
-  </div>
+  </div> -->
   <script src="./js/modal.js"></script>
 </body>
 

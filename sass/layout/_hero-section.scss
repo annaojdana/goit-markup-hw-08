@@ -1,27 +1,23 @@
 .hero {
   &__img {
-    margin: 0 auto;
-    max-width: 1600px;
-    height: 600px;
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url("../images/main-img.jpg");
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    height: 400px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../../images/hero-img/header-img-mobile.jpg');
     @include backgroundSettings;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   &__text {
     text-align: center;
-    width: 696px;
     color: $white-color;
+    max-width: 365px;
+    margin: 0 auto;
+    padding-top: 118px;
     h1 {
       text-transform: uppercase;
       font-weight: 900;
-      font-size: 44px;
+      font-size: 26px;
       letter-spacing: 0.06em;
     }
   }
@@ -29,5 +25,12 @@
     margin-top: 30px;
     padding: 0 42px;
     height: 50px;
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: url('../../images/hero-img/Header\ img@2xmobile.jpg');
   }
 }

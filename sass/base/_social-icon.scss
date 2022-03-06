@@ -32,3 +32,11 @@
 .elipse-icon--dark {
   background-color: $elipse-dark-color;
 }
+
+.social-line::after{
+content:"";
+height: 22px;
+width: 1px;
+border:1px solid $social-line ;
+margin-left: 10px;
+}
