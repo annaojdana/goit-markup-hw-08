@@ -89,7 +89,7 @@
   .hero {
     &__img {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url('/images/hero-img/header-img-tablet.jpg');
+        url('images/hero-img/header-img-tablet.jpg');
     }
   }
   .about-us {
@@ -212,7 +212,7 @@
       height: 600px;
       max-width: 1600px;
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url('/images/hero-img/header-img-desktop.jpg');
+        url('images/hero-img/header-img-desktop.jpg');
     }
     &__text {
       max-width: 696px;
