@@ -2,10 +2,9 @@
   &__img {
     display: block;
     width: 100%;
-    max-width: 480px;
     height: 400px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../../images/hero-img/header-img-mobile.jpg');
+      url('/images/hero-img/header-img-mobile.jpg');
     @include backgroundSettings;
   }
   &__text {
@@ -19,18 +18,12 @@
       font-weight: 900;
       font-size: 26px;
       letter-spacing: 0.06em;
+      line-height: 162%;
     }
   }
   &__btn {
     margin-top: 30px;
     padding: 0 42px;
     height: 50px;
-  }
-}
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .box {
-    background-image: url('../../images/hero-img/Header\ img@2xmobile.jpg');
   }
 }

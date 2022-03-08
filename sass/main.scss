@@ -1,7 +1,7 @@
 @import 'utils/variables';
 @import 'utils/mixins';
 @import 'utils/visually-hidden';
-@import 'utils/media';
+
 
 
 @import 'vendors/normalize';
@@ -28,7 +28,8 @@
 @import 'components/active-pages';
 @import 'components/modal-window';
 @import 'components/newsletter';
-@import 'components/menu'
+@import 'components/menu';
+@import 'components/media';
 
 
 

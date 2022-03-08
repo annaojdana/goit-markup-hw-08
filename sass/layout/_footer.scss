@@ -2,7 +2,7 @@
   background-color: $dark-bg-color;
   &__boxes {
     padding: 60px 0;
-    display: flex;
+    text-align: center;
   }
   &__box-address {
     color: $white-color;
@@ -11,14 +11,12 @@
     letter-spacing: 0.03em;
     display: flex;
     flex-direction: column;
-    & p {
+     p {
       padding-top: 20px;
     }
     &-link {
       padding-top: 16px;
       color: $main-footer-color;
-    }
-    &-link {
       transition: color $main-transition;
       &:hover,
       &:focus {
@@ -28,22 +26,19 @@
   }
 
   &__header {
-    padding-top: 13px;
+    padding-top: 60px;
     color: $white-color;
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }
-  &__box-middle {
-    margin-left: 70px;
+  &__box-middle{
+    margin: 0 auto;
+    width: 216px;
   }
   &__social-icon-wrapper {
     display: flex;
     padding-top: 20px;
-  }
-
-  &__box-right {
-    margin-left: 78px;
   }
 }
